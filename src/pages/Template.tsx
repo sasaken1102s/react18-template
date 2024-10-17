@@ -5,12 +5,12 @@ interface Props {
     children?: React.ReactNode;
 }
 
-const Home = ({ children }: Props) => {
+const Page = ({ children }: Props) => {
     return (
-        <Layout title="Top" desc="desc">
+        <Layout>
             <p>Home</p>
         </Layout>
     );
 };
 
-export default Home;
+export default Page;
